@@ -1,0 +1,420 @@
+html{
+	scroll-behavior: smooth;
+}
+.cuarto{
+	padding: 10px 10px;
+	width: 100vw;
+	height: 100vh;
+	background: blue;
+}
+.table, th, td {
+  border:1px solid black;
+}
+
+.quinto{
+	width: 100vw;
+	min-height: 100vh;
+	background-image: url("../img/chess.jpg");
+    background-repeat:none;
+    background-position:center;
+    background-size:cover;
+    background-position: 0px 0px;
+}
+
+.quinto__titulo{
+	width: 60%;
+	margin: auto;
+	padding-top: 50px;
+	display: flex;
+}
+.quinto__titulo h1{
+	margin: auto;
+	font-size: 40px;
+	background: white;
+	padding: 15px 10px;
+	border-radius: 5px;
+}
+.quinto__titulo span{
+	background: gray;
+	color: white;
+	padding: 5px;
+	cursor: pointer;
+}
+.eleciones{
+	display: flex;
+	margin-top: 250px;
+}
+
+.circulo{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: white;
+	
+	border: 5px solid black;
+	margin: auto;
+	transition: .3s linear;
+}
+.casino{
+	background-image: url("https://img.freepik.com/vector-gratis/luck-casino-tragamonedas-png_156846-937.jpg");
+	    background-repeat:none;
+    background-position:center;
+    background-size:cover;
+}
+.peon{
+	background-image: url("https://w7.pngwing.com/pngs/96/435/png-transparent-world-chess-championship-pawn-chess-piece-chess-engine-cheess-game-king-queen.png");
+	    background-repeat:none;
+    background-position:center;
+    background-size:cover;
+}
+
+.circulo:hover{
+	transform: scale(1.2);
+}
+
+.quinto .button{
+	margin: 10px 50px;
+	padding:10px 15px;
+	border: 3px solid black;
+	border-radius: 5px;
+	background: gray;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+
+
+#sexto{
+	width: 100vw;
+	height: 100vh;
+	overflow-y: auto;
+	background: white;
+}
+.sexto h1{
+	background: rgba(40, 40, 40, 1.0);
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	padding: 20px 0px;
+}
+.cont__sexto{
+	display: flex;
+	height: 30vh;
+}
+.cont__sexto__button{
+	width: 200px;
+	height: 40px;
+	margin: auto;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+footer .button{
+	border: 2px solid white;
+	background: transparent;
+	color: white;
+	border-radius: 0px;
+	min-height: 40px;
+	padding: 10px 10px;
+	margin: 30px 20px;
+	cursor: pointer;
+	transition: .5s;
+}
+footer .button:hover{
+	background: white;
+	color: black;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+footer{
+    width: 100%;
+    background: #000000;
+    color: white;
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Karla&display=swap');
+:root{
+    --azul:#438EC8;
+    --negro:#222020;
+    --negroclaro:#3D3D3D;
+    --blanco:#FCFCFC;
+    --grisoscuro:#898888;
+    --grisclaro:#E5E5E5;
+    --gris:#BFBFBF;
+    --petroleo:#1F4C68;
+    --fondo:#FBFBFB;
+    --verde:#94D580;
+    --verde2:#83C071;
+    --verde3:#47512E;
+    --violeta:#B579BF;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+.septimo{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	background:var(--fondo);
+	width: 100vw;
+	height: 100vh;
+	background: white;
+}
+.septimo h1{
+	background: var(--negro);
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	padding: 20px 0px;
+}
+.cont{
+	display: flex;
+	width: 93%;
+	margin: 20px auto;
+	height: auto;
+	border: 1px solid var(--gris);
+	border-radius: 10px;
+}
+.cont .fila{
+	width: 40%;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.cont input{
+	height:45px;
+    display: block;
+    font-family: 'Be Vietnam', sans-serif;
+    border:1px solid;
+    border-radius:5px;
+    border-color:var(--gris);
+    font-size:20px;
+    color: var(--grisoscuro);
+    text-align: center;
+}
+.titulo input{
+}
+.cuerpo input{
+	margin: 10px 40px;
+	width: 60%;
+}
+.izquierda p{
+	font-style: italic;
+
+}
+
+.cont__p{
+	margin: 20px 10px;
+}
+.septimo a{
+	
+    margin:10px 20px;
+    text-decoration: none;
+}
+.cont__button{
+	display: flex;
+}
+.button__septimo,
+.septimo .cont__button .button{
+	height:45px;
+	width: 100px;
+    display: block;
+    font-family: 'Be Vietnam', sans-serif;
+    border:1px solid;
+    border-radius:5px;
+    border-color:var(--gris);
+    font-size:20px;
+    color: var(--grisoscuro);
+    text-align: center;
+    background-color:var(--verde);
+    transition: .4s linear;
+    color:white;
+    font-size:18px;
+}
+.button__septimo:hover,
+.septimo .cont__button .button:hover{
+	cursor: pointer;
+	background-color:var(--verde2);
+}
+.button__septimo{
+	margin-left: 80px;
+}
+
+.septimo #popou{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(135,123,123, 0.5);
+    position:fixed;
+}
+
+#popou .ventana {
+	height:auto;
+    background-color: white;
+    border:solid 1px;
+    border-color:grey;
+    border-radius:5px;
+    padding: 40px 20px;
+    width:300px; 
+    position: relative;
+}
+
+#popou #popou__exit{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background: transparent;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+
+.fin{
+	font-family: 'Open Sans', sans-serif;
+	background:var(--fondo);
+	width: 100vw;
+	height: 100vh;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fin button{
+	width: 300px;
+	height: 60px;
+	border: none;
+	background: var(--gris);
+	color: var(--blanco);
+	font-size: 30px;
+	font-weight: 800;
+	cursor: pointer;
+}
+.fin button:hover{
+	color: black;
+	
+}
